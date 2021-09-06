@@ -1,0 +1,30 @@
+{
+  "name": "create-electron-lab",
+  "version": "0.0.0",
+  "description": "Create a Electron Lab Application via command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-electron-lab": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron-laboratory/create-electron-lab.git"
+  },
+  "keywords": [
+    "electron-lab",
+    "electron"
+  ],
+  "author": "xiefengnian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/electron-laboratory/create-electron-lab/issues"
+  },
+  "homepage": "https://github.com/electron-laboratory/create-electron-lab#readme",
+  "files": [
+    "cli.js",
+    "index.js"
+  ]
+}
