@@ -26,5 +26,9 @@
   "files": [
     "cli.js",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "git-clone": "^0.1.0",
+    "inquirer": "^8.1.5"
+  }
 }

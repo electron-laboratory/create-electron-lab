@@ -1,13 +1,7 @@
-import inquirer from 'inquirer';
-import downloadTemplate from './download.js';
-import question from './question/index.js';
+const inquirer = require('inquirer');
+const downloadTemplate = require('./download.js');
+const question = require ('./question/index.js');
 
-inquirer
-    .prompt(question)
-    .then(answers => {
-        downloadTemplate(
-            answers.framework,
-            answers.version,
-            answers.name
-        )    
-    })
+inquirer.prompt(question).then((answers) => {
+  downloadTemplate(answers.framework, answers.version, answers.name);
+});

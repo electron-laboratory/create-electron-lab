@@ -1,5 +1,5 @@
 // 基本信息采集，version、name、author、description等等的问题维护
-export default [{
+module.exports =  [{
     type: 'input',
     message: 'project name',
     name: 'name',

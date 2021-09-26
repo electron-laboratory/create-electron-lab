@@ -1,5 +1,5 @@
 // 筛选开发框架的问题
-export default [{
+module.exports = [{
     type: 'list',
     message: 'please choose a development framework:',
     name: 'framework',

@@ -1,9 +1,4 @@
-import framework from './framework.js';
-import userMessage from './userMessage.js';
+const framework = require('./framework.js');
+const userMessage = require('./userMessage.js');
 
-
-export default [
-    ...userMessage,
-    ...framework,
-]
-
+module.exports = [...userMessage, ...framework];
