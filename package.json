@@ -1,6 +1,6 @@
 {
   "name": "create-electron-lab",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.1",
   "description": "Create a Electron Lab Application via command line.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,10 @@
   "homepage": "https://github.com/electron-laboratory/create-electron-lab#readme",
   "files": [
     "cli.js",
-    "index.js"
+    "index.js",
+    "download.js",
+    "question",
+    "constant"
   ],
   "dependencies": {
     "git-clone": "^0.1.0",
