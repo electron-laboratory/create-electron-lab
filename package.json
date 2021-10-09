@@ -1,8 +1,7 @@
 {
   "name": "create-electron-lab",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "Create a Electron Lab Application via command line.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
