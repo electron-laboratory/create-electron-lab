@@ -4,7 +4,7 @@ module.exports = [{
     message: 'please choose a development framework:',
     name: 'framework',
     choices: [
-        "No need (normal H5)",
+        "h5",
         "React",
         "Vue",
     ],

@@ -7,12 +7,7 @@ const frameworkType = require('./constant/index.js').frameworkType;
 
 const spinner = ora('Loading~~');
 
-const rootName = './electron-lab-demo';
-
-const rootDirName = path.resolve(rootName);
-
 module.exports = (framework = 'react', version = '1.0.0', projectName = 'root_name') => {
-  console.log(frameworkType);
 
   spinner.start();
 
@@ -38,6 +33,9 @@ module.exports = (framework = 'react', version = '1.0.0', projectName = 'root_na
       }
     });
   } else {
+      spinner.color = 'cyan'
+      spinner.text = 'Now we dont have other frame template, wait for furthur, sry'
+      spinner.succeed()
   }
 };
 
