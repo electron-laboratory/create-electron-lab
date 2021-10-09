@@ -25,7 +25,6 @@
   "homepage": "https://github.com/electron-laboratory/create-electron-lab#readme",
   "files": [
     "cli.js",
-    "index.js",
     "download.js",
     "question",
     "constant"
